@@ -1,5 +1,5 @@
 {
- "key": "fdc47267",
+ "key": "64467c28",
  "stars": 1,
  "contributions": 65,
  "repos": 8,
@@ -106,9 +106,13 @@
    {
     "c": 0,
     "day": 16,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 17,
     "today": true
    },
-   null,
    null,
    null,
    null,
