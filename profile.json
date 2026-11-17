@@ -2,7 +2,7 @@
   "version": 1,
   "login": "moskvol",
   "seed": "#77D3A4",
-  "seedFromAvatar": true,
+  "seedFromAvatar": false,
   "scheme": "tonalSpot",
   "motion": true,
   "iconFill": true,
@@ -20,18 +20,22 @@
   "hidden": [],
   "hero": {
     "greeting": "Привет, я",
-    "name": "",
-    "subtitle": "Разработчик на C#, создатель Steamforge и просто кайфовый чел",
+    "name": "moskvol or Даниил",
+    "subtitle": "Делаю я и мой любимый ассистент Codex",
     "typing": true,
-    "avatarShape": "cookie12",
+    "avatarShape": "soft",
     "chips": [
       {
         "icon": "location_on",
         "label": "Домодедово"
       },
       {
-        "icon": "code",
-        "label": "C# & HTML"
+        "icon": "brand:claude",
+        "label": "Codex"
+      },
+      {
+        "icon": "star",
+        "label": "Материал Слоп"
       }
     ]
   },
@@ -39,16 +43,16 @@
     "title": "Обо мне",
     "items": [
       {
-        "icon": "palette",
-        "label": "Люблю Material Design"
+        "icon": "person",
+        "label": "Пользуюсь Codex"
       },
       {
-        "icon": "sports_esports",
-        "label": "Люблю играть в игры "
+        "icon": "airline_seat_flat",
+        "label": "Люблю кушать и спать"
       },
       {
-        "icon": "visibility_off",
-        "label": "VibeCoding"
+        "icon": "brand:rockstargames",
+        "label": "Люблю играть в игрушки"
       }
     ]
   },
@@ -63,8 +67,16 @@
             "label": "HTML"
           },
           {
-            "icon": "brand:python",
-            "label": "Python"
+            "icon": "brand:kotlin",
+            "label": "Kotlin"
+          },
+          {
+            "icon": "brand:dart",
+            "label": "Dart"
+          },
+          {
+            "icon": "brand:github",
+            "label": ""
           }
         ]
       },
@@ -76,7 +88,7 @@
             "label": "Git"
           },
           {
-            "icon": "brand:pagespeedinsights",
+            "icon": "brand:githubpages",
             "label": "GitHub Pages"
           }
         ]
@@ -87,9 +99,17 @@
     "source": "manual",
     "repos": [
       "steamforge",
-      "moskvol.github.io"
+      "flow-vpn",
+      "GhostGram"
     ],
-    "overrides": {},
+    "overrides": {
+      "GhostGram": {
+        "icon": "android"
+      },
+      "flow-vpn": {
+        "icon": "vpn_key"
+      }
+    },
     "empty": "Описания пока нет.",
     "fork": "Fork"
   },
@@ -102,7 +122,7 @@
     "calendar": "Последние 21 день",
     "weekdays": "ВПВСЧПС",
     "languages": "Языки в моих репозиториях",
-    "showLanguages": false
+    "showLanguages": true
   },
   "streak": {
     "title": "Серия",
@@ -113,8 +133,12 @@
   "socials": {
     "items": [
       {
-        "icon": "brand:steam",
-        "url": "https://steamcommunity.com/id/moskvol/"
+        "icon": "brand:telegram",
+        "url": "https://t.me/moskvol1337"
+      },
+      {
+        "icon": "brand:discord",
+        "url": "https://discord.com/users/1364265093780476056"
       },
       {
         "icon": "brand:github",
@@ -130,8 +154,14 @@
       {
         "icon": "language",
         "label": "Мой сайт",
-        "url": "https://moskvol.space",
+        "url": "https://www.moskvol.space/",
         "style": "filled"
+      },
+      {
+        "icon": "book_2",
+        "label": "Все репозитории",
+        "url": "https://github.com/moskvol?tab=repositories",
+        "style": "tonal"
       }
     ]
   }
