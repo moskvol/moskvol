@@ -1,13 +1,17 @@
 {
- "key": "154015f8",
+ "key": "8e91cf68",
  "stars": 1,
- "contributions": 99,
+ "contributions": 179,
  "repos": 11,
  "followers": 0,
  "languages": [
   [
    "TypeScript",
-   103039
+   237083
+  ],
+  [
+   "PLpgSQL",
+   181533
   ],
   [
    "HTML",
@@ -22,16 +26,12 @@
    44740
   ],
   [
-   "PLpgSQL",
-   35410
-  ],
-  [
    "Kotlin",
    29966
   ],
   [
    "JavaScript",
-   855
+   1744
   ]
  ],
  "days": [
@@ -131,7 +131,7 @@
     "today": false
    },
    {
-    "c": 18,
+    "c": 98,
     "day": 26,
     "today": true
    },
